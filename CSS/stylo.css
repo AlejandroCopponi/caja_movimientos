@@ -1,0 +1,65 @@
+
+
+
+.principal{
+   background: darkgrey;
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    margin-left: auto ;
+    margin-right: auto ;
+    position: relative;
+    overflow: hidden;
+}
+
+.principal .imagen{
+    position: absolute;
+    width: 100%;
+    transition: 1s;
+}
+
+.principal .imagen:hover{
+    transform:scale(1.03,1.03);
+    filter:grayscale(1);
+}
+
+.pie{
+    background: rgba(6, 12, 34, 0.548);
+    position: absolute;
+    margin-top: 37%;
+    left: 0;
+    color: cornsilk;
+    right: 0;
+    text-align: center;
+    transition: 1s;
+    padding-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.pie:hover{
+    transform: translateY(-80px);
+}
+
+.pie h2:hover{
+    color: rgb(71, 233, 198);
+    font-size: 48px;
+}
+.pie h2{
+    transition: 250ms;
+    font-size: 45px;
+}
+
+.pie h3{
+    font-size: 30px;
+}
+
+.redes{
+    width: 20%;
+    filter:grayscale(1);
+    transition: 250ms;
+}
+
+.redes:hover{
+    filter: none;
+    width: 22%;
+}
